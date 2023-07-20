@@ -36,6 +36,12 @@ where
     }
 
     pub fn init(&mut self) {
+        // occasionally the bypass circuit we're interfacing with
+        // will take longer to charge/boot than we do, so wait a sec
+        // 500ms seems reasonable enough, right?
+        self.delay.delay_ms(250 as u8);
+        self.delay.delay_ms(250 as u8);
+
         if self.active ^ self.default_state {
             self.pulse();
         }
