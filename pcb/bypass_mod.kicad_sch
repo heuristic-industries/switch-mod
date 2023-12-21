@@ -1461,7 +1461,7 @@
     (property "Value" "ATtiny85-20S" (at 80.518 78.0666 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Package_SO:SOIC-8W_5.3x5.3mm_P1.27mm" (at 93.98 76.2 0)
+    (property "Footprint" "kicad library:SOICxDIP" (at 93.98 76.2 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" (at 93.98 76.2 0)

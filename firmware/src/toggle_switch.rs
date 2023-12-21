@@ -41,6 +41,14 @@ where
         // 500ms seems reasonable enough, right?
         self.delay.delay_ms(250 as u8);
         self.delay.delay_ms(250 as u8);
+        self.delay.delay_ms(250 as u8);
+        self.delay.delay_ms(250 as u8);
+        self.delay.delay_ms(250 as u8);
+        self.delay.delay_ms(250 as u8);
+        self.delay.delay_ms(250 as u8);
+        self.delay.delay_ms(250 as u8);
+        self.delay.delay_ms(250 as u8);
+        self.delay.delay_ms(250 as u8);
 
         if self.active ^ self.default_state {
             self.pulse();
